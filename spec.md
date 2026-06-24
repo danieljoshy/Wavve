@@ -77,3 +77,5 @@ FieldTypeDescription_idObjectIdUnique identifierusernameStringDisplay nameemailS
 FieldTypeDescription_idObjectIdUnique identifiercontentStringMessage textsenderObjectId → UserWho sent the messageroomObjectId → RoomGroup room (null if DM)receiverObjectId → UserDM recipient (null if group)isReadBooleanRead statuscreatedAtDateTime message was sent
 🏠 Room
 FieldTypeDescription_idObjectIdUnique identifiernameStringRoom namecreatedByObjectId → UserWho created the roommembersObjectId[] → UserList of memberscreatedAtDateRoom creation dateupdatedAtDateLast activity date
+🛠️ Tech Stack
+LayerTechFrontendReact, React Router, Axios, Socket.io-clientBackendNode.js, Express, Socket.ioDatabaseMongoDB + MongooseAuthJWT + bcryptStylingTailwind CSS
